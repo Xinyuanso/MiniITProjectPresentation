@@ -1,0 +1,53 @@
+body
+{
+    background-color: rgb(246, 246, 250);
+	
+	
+
+}
+
+#logo
+{
+    background-color: rgb(246, 246, 250);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 200px;
+  
+
+}
+
+#container
+{
+    background-color: rgb(246, 246, 250);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 675px;
+    height: 200px;
+  
+}
+
+input[type=text],
+	input[type=password] {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+	}
+
+	input[type =button] {
+		background-color: rgb(101,146,191);
+		color: white ;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+	}
