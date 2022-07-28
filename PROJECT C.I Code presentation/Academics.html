@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+
+<head> 
+    <!--Please change the title and file name to corresponding webpage-->
+    <meta charset="UTF-8">
+    <title> Academic </title>
+    <link rel="stylesheet" type="text/css" href="Academics.css">
+    <link rel="icon" type="image/png" href="MMU_smalllogo.png">
+</head>
+
+<body>
+    
+ 
+
+    <div class="buttons">
+        <img src="MMU_logo.png" 
+             alt="MMU logo "  
+             class="logo">
+
+<!-- This is the search bar. -->
+             <div>
+                <form action="" method="get" class="search-bar">
+                    <input type="text" placeholder="search anything" name="q">
+                    <button type="submit"><img src="search_icon.png"></button>
+                </form>
+            </div>
+        
+<!-- This is the navigation buttons. -->
+        <ul>
+            <li><a href="BaseNavigation.html"> Home </a></li>
+            <li><a href="SelfServiceMain.html"> Self Service </a></li>
+            <li><a href="login.html"> Sign Out </a></li>
+        </ul>
+    </div>
+
+        <div id="but"></div>
+        
+    <div id="back"> 
+        <div id="titleone">
+            <h2> Academic </h2>
+        </div>
+
+        <div id="smallTitle">
+            <h3> <a href="BaseNavigation.html"> Main Menu </a> > <a href="SelfServiceMain.html"> Self Service </a> > <a href="Academics.html"> Academic </a> </h3>
+        </div>
+
+        <div id="content"> 
+          
+                <input class="btn" id="course_enrollment" type="button" value="Course Enrollment" onclick="course_enrollmentbtn()">
+                <input class="btn" id="industrial_training_program" type="button" value="Industrial Training Program" onclick="Industrial_Training_Programbtn()"> 
+                <input class="btn" id="academic_records" type="button" value="Academic Records" onclick="academic_recordsbtn()"> 
+                <input class="btn" id="degree_progress_graduation" type="button" value="Degree Progress / Graduation" onclick="degree_progress_graduationbtn()"> 
+                <input class="btn" id="transfer_credit" type="button" value="Transfer Credit" onclick="transfer_credit()"> 
+        </div>        
+           
+        
+   </div>
+    <script type="text/javascript" src="Academics.js"></script> 
+</body>
+
+</html>
